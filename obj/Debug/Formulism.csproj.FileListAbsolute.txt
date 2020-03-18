@@ -1,0 +1,11 @@
+D:\stealproject\formula\computerformula\Formulism\Formulism\bin\Debug\Formulism.dll
+D:\stealproject\formula\computerformula\Formulism\Formulism\bin\Debug\Formulism.pdb
+D:\stealproject\formula\computerformula\Formulism\Formulism\obj\Debug\Formulism.csproj.CoreCompileInputs.cache
+D:\stealproject\formula\computerformula\Formulism\Formulism\obj\Debug\Formulism.dll
+D:\stealproject\formula\computerformula\Formulism\Formulism\obj\Debug\Formulism.pdb
+D:\stealproject\formula\computerformula\Formulism\Formulism\obj\Debug\Formulism.csprojAssemblyReference.cache
+F:\app\steal\formula_program-master\Formulism\bin\Debug\Formulism.dll
+F:\app\steal\formula_program-master\Formulism\bin\Debug\Formulism.pdb
+F:\app\steal\formula_program-master\Formulism\obj\Debug\Formulism.csproj.CoreCompileInputs.cache
+F:\app\steal\formula_program-master\Formulism\obj\Debug\Formulism.dll
+F:\app\steal\formula_program-master\Formulism\obj\Debug\Formulism.pdb
