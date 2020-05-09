@@ -9,9 +9,10 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Formulism</RootNamespace>
     <AssemblyName>Formulism</AssemblyName>
-    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -42,11 +43,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BaseMathMethod\Calculas.cs" />
-    <Compile Include="BaseMathMethod\Distribution.cs" />
+    <Compile Include="BaseMathMethod\Function.cs" />
+    <Compile Include="BaseMathMethod\Statistics.cs" />
     <Compile Include="MathematicalMethod\DiscreteFourierTransform.cs" />
     <Compile Include="MechineLearningMethod\Logistic.cs" />
     <Compile Include="BaseMathMethod\Matrix.cs" />
+    <Compile Include="MechineLearningMethod\MechineAlgorithm.cs" />
+    <Compile Include="MechineLearningMethod\OrdinaryLeastSquares.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
