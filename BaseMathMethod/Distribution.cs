@@ -24,5 +24,10 @@ namespace Formulism.BaseMathMethod
             1 / Math.Sqrt(2 * Math.PI) / sigema * Math.Exp(-(x - e) * (x - e) / 2 / (sigema * sigema));
             return fx;
         }
+        public static double Uniform(int Length)
+        {
+            double fx = 1 / Length;
+            return fx;
+        }
     }
 }

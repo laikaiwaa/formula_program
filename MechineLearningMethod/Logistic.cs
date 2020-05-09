@@ -179,7 +179,7 @@ Matrix.Subtract(
             double[,] P = new double[leng, 1];
             for (int i = 0; i < leng; i++)
             {
-                P[i, 0] = Calculas.Integral(-100, b[i, 0] / StandardErrorMatrix(x, y, b)[i, i], "Formulism.Distribution", "Normal", new object[]{
+                P[i, 0] = Calculas.Integral(-100, b[i, 0] / StandardErrorMatrix(x, y, b)[i, i], "Formulism.Distribution", "Normal",0.00001, new object[]{
                 0,1});
                 if (P[i, 0] > 0.5)
                 {

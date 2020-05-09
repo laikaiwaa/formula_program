@@ -4,6 +4,10 @@ D:\stealproject\formula\computerformula\Formulism\Formulism\obj\Debug\Formulism.
 D:\stealproject\formula\computerformula\Formulism\Formulism\obj\Debug\Formulism.dll
 D:\stealproject\formula\computerformula\Formulism\Formulism\obj\Debug\Formulism.pdb
 D:\stealproject\formula\computerformula\Formulism\Formulism\obj\Debug\Formulism.csprojAssemblyReference.cache
+F:\laikaiwaa\project\01datascience\program\formula_program-master\Formulism\obj\Debug\Formulism.dll
+F:\laikaiwaa\project\01datascience\program\formula_program-master\Formulism\obj\Debug\Formulism.pdb
+F:\laikaiwaa\project\01datascience\program\formula_program-master\Formulism\bin\Debug\Formulism.dll
+F:\laikaiwaa\project\01datascience\program\formula_program-master\Formulism\bin\Debug\Formulism.pdb
 F:\app\steal\formula_program-master\Formulism\bin\Debug\Formulism.dll
 F:\app\steal\formula_program-master\Formulism\bin\Debug\Formulism.pdb
 F:\app\steal\formula_program-master\Formulism\obj\Debug\Formulism.csproj.CoreCompileInputs.cache
