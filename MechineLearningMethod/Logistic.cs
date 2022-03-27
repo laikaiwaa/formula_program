@@ -110,8 +110,8 @@ namespace Formulism.MechineLearningMethod
         /// <summary>
         /// B的变动值
         /// </summary>
-        /// <param name="da">似然函數的一階導數</param> 
-        ///  <param name="db">似然函數的一階導數</param> 
+        /// <param name="inputx">inputx，維度n*k</param> 
+        ///  <param name="inputy">inputy,維度n*1,取值1或0</param> 
         ///  <param name="b">B,初始權值</param>
         public static double[,] Db(double[,] inputx, double[,] inputy, double[,] b, out double[,] dfirst, out double[,] dsecond)
         {
@@ -134,8 +134,6 @@ Matrix.Subtract(
                             )
                 )
                 ;
-
-
             return Deltab;
         }
         /// <summary>
@@ -179,7 +177,7 @@ Matrix.Subtract(
             double[,] P = new double[leng, 1];
             for (int i = 0; i < leng; i++)
             {
-                P[i, 0] = Calculas.Integral(-100, b[i, 0] / StandardErrorMatrix(x, y, b)[i, i], "Formulism.Distribution", "Normal",0.00001, new object[]{
+                P[i, 0] = Calculas.Integral(-100, b[i, 0] / StandardErrorMatrix(x, y, b)[i, i], "Formulism.BaseMathMethod.Function", "Normal",0.00001, new object[]{
                 0,1});
                 if (P[i, 0] > 0.5)
                 {
